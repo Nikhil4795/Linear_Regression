@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 salary_dataset = pd.read_csv('Salary_Data.csv')
+#salary_dataset = pd.read_csv('input_data.csv')
 
 x = salary_dataset.iloc[:, :-1].values
 y = salary_dataset.iloc[:, 1].values
